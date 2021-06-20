@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+<style>
+    h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    text-align: center;
+    }
+    body{
+        background: linear-gradient(#f3f4ed,#e1f1dd,#4e8d7c,#045762, #87a7b3);
+    }    
+
+</style>
+</head>
+<body>
+    
+    <h1>Book your tickets!</h1>
+    <hr>
+<form>
+   <center> <fieldset>
+        <legend>Persona</legend>
+  <label for="fname">Name:</label><br>
+  <input type="text" name="fname" id="fname" placeholder="Enter your name"><br><br>
+  <label for="city">City:</label><br>
+  <input type="text" name="city" id="city" placeholder="Enter your city"><br><br>
+  <label for="birthday">Date of Birth</label> <br>
+  <input type="date" name="birthday" id="birthday"><br>
+  <label for="CNIC">CNIC #</label><br>
+  <input type="text" name="CNIC" id="CNIC" placeholder="Enter your CNIC"><br><br>
+  <label for="email">Email address</label><br>
+  <input type="text" name="email" id="email" placeholder="Enter your Email"><br><br>
+  <label for="pass">Password</label><br>
+  <input type="password" name="pass" id="pass" placeholder="Enter your password"><br><br>
+</fieldset></center>  
+
+<h3>Select the city you are going to support</h3>
+<input type="radio" name="country">
+<label for="Barcelona">Barcelona</label><br>
+<input type="radio" name="country">
+<label for="Russia">Russia</label><br>
+<h3>Why do you support it?</h3>
+<textarea name="message" id="" cols="30" rows="10"></textarea>
+<h3>Payment method</h3>
+<input type="checkbox" id="pay" name="pay">
+<label for="pay">Bank account</label><br>
+<input type="checkbox" id="pay" name="pay">
+<label for="pay">Easy Paisa</label><br>
+<input type="checkbox" id="pay" name="pay">
+<label for="pay">Jazz cash</label><br>
+<input type="checkbox" id="pay" name="pay">
+<label for="pay">PayPal</label><br> <br>
+<label for="an">Account Number</label><br>
+<input type="password" name="an" id="an" placeholder="Enter your account number"><br> 
+<input type="checkbox" id="agreement" name="agreement"> 
+<label for="agreement">I am sure about all the information is original, certified and I don't have any problem to share this.</label>
+<br>
+<input type="submit" value="Submit">
+</form> 
+</body>
+</html>
